@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Suez+One&display=swap');
+.container{
+  display: flex;
+  justify-content: center;
+
+}
+.sobre-nos{
+  background:linear-gradient(rgba(59, 56, 56, 0.664),rgba(0, 0, 0, 0.603)100%),url('../../../assets/vidropic.jpg')!important;
+  width: 100%;
+  height: 1080px;;
+  border-radius: 16px 16px 0px 0px;
+  border: 2px solid rgb(133, 133, 145);
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
+.text-sobre-nos{
+  background-color: rgba(42, 48, 85, 0.589);
+  width: 40%;
+  padding:50px;
+}
+p{
+  font-size:18pt;
+}
+.servicos{
+  width: 50%;
+  height: 350px;
+  margin-top: 200px;
+  border-radius: 18px;
+  border: 2px solid rgb(133, 133, 145);
+}
+
+button{
+  background-color: rgb(225, 238, 238);
+  border: none;
+  font-size: 16pt;
+  cursor:pointer;
+  border-radius: 18px;
+  padding:5px;
+  margin-bottom: 20px;
+}
+
+button:hover{
+  background-color: rgba(62, 72, 131, 0.973);
+  color: aliceblue;
+}
+
+
+.frase-efeito{
+  background-color: rgba(42, 48, 85, 0.589);
+  font-style: italic;
+  text-align: center;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  border-radius: 0px 0px 16px 16px;
+}
+.text-efeito{
+  font-size: 40px;
+  margin-top: 40px;
+}
+.aspas{
+  font-size: 100px;
+  color: aliceblue;
+  animation-name: animaAspas;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.container-baixo{
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  color: rgb(8, 8, 90);
+}
+.gif-services{
+  margin-right: 100px;
+  border-radius: 16px;
+  width: 500px;
+  border:10px groove rgba(42, 48, 85, 0.589);
+}
+
+@keyframes animaAspas {
+  from {color:transparent;}
+  to {color:aliceblue;}
+}
+
+h1{
+  font-family: 'Suez One', serif;
+  font-size:40px;
+}
+
+h2{
+  font-family: 'Jost', sans-serif;
+  margin-top: 5px;
+  font-size: 30px;
+}
+p{
+  font-family: 'Jost', sans-serif;
+  margin-top: 5px;
+  font-size: 30px;
+
+}
+.text-services{
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.vantagens{
+  display: flex;
+  justify-content: center;
+}
+
+.vantagens-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  text-align: center;
+  color: rgb(8, 8, 90);
+
+}
+.linha{
+  width: 100%;
+  border-bottom: 2px solid blue;
+}
+.text-vantagens{
+  width: 900px;
+}
+
+.images-descricoes{
+  margin-top: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.compromisso{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1300px;
+}
+.imgCompromisso{
+  width: 30%;
+}
+.button-services{
+  width: 200px!important;
+  color: rgba(42, 48, 85, 0.767);
+  background-color: transparent!important;
+  background-color: rgb(107, 180, 245)!important;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 280px) {
+  .container{
+    width: 100%;
+  }
+  .sobre-nos{
+    height: 100%;
+  }
+  .text-sobre-nos{
+    width:500px;
+    padding:0px;
+    height: 100%;
+  }
+  .text-efeito{
+    font-size: 30px;
+  }
+  .container-baixo{
+    flex-direction: column;
+    width: 400px;
+  }
+}
