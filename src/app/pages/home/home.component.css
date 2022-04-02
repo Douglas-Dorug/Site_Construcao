@@ -79,6 +79,11 @@ button:hover{
   width: 500px;
   border:10px groove rgba(42, 48, 85, 0.589);
 }
+.txt-escolha{
+  max-width: 650px;
+  margin-left: 50px;
+  color: rgb(8, 8, 90);
+}
 
 @keyframes animaAspas {
   from {color:transparent;}
@@ -136,7 +141,6 @@ p{
   justify-content: center;
 }
 
-
 .compromisso{
   display: flex;
   justify-content: center;
@@ -157,20 +161,55 @@ p{
 @media only screen and (max-width: 600px) and (min-width: 280px) {
   .container{
     width: 100%;
+    overflow: hidden;
   }
   .sobre-nos{
     height: 100%;
   }
   .text-sobre-nos{
-    width:500px;
+    width:100%;
     padding:0px;
     height: 100%;
   }
   .text-efeito{
-    font-size: 30px;
+    width: 60%;
+    font-size: 20px;
   }
   .container-baixo{
     flex-direction: column;
-    width: 400px;
+  }
+  .frase-efeito{
+    height: 90%!important;
+  }
+  .gif-services{
+    overflow: hidden;
+    margin:0px;
+    width: 90%;
+  }
+  .container-baixo{
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .text-services{
+    align-items: center;
+  }
+  .linha{
+    display: none;
+  }
+  .text-vantagens{
+    border-bottom:2px solid;
+    width: 80%;
+  }
+  .compromisso{
+    flex-direction:column;
+  }
+  .imgCompromisso{
+    width:60%;
+  }
+  .txt-escolha{
+    margin: 0px;
   }
 }
