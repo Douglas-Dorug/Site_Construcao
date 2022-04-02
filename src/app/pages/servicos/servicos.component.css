@@ -1,5 +1,15 @@
 h1{
   text-align: center;
+  color: rgb(8, 8, 90);
+}
+
+hr{
+  margin-bottom: 40px;
+}
+
+p{
+  max-width: 350px;
+  align-items: center;
 }
 
 .container{
@@ -12,6 +22,15 @@ h1{
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(42, 48, 85, 0.589);
+  color: aliceblue;
+  width: 450px;
+  height: 700px;
+  border-radius: 15px;
 }
 
 .teste{
@@ -19,4 +38,32 @@ h1{
   height: 350px;
   border-radius: 15px;
 
+}
+
+@media only screen and (max-width: 600px) and (min-width: 280px) {
+  .container{
+    flex-direction: column;
+  }
+}
+
+.button-services{
+  width: 200px!important;
+  color: rgba(42, 48, 85, 0.767);
+  background-color: transparent!important;
+  background-color: aliceblue!important;
+}
+
+button{
+  background-color: rgb(225, 238, 238);
+  border: none;
+  font-size: 16pt;
+  cursor:pointer;
+  border-radius: 18px;
+  padding:5px;
+  margin-bottom: 100px;
+}
+
+button:hover{
+  background-color: rgba(62, 72, 131, 0.973)!important;
+  color: aliceblue!important;
 }
