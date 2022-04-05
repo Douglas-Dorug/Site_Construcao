@@ -6,6 +6,20 @@ h1{
 hr{
   margin-bottom: 40px;
 }
+.carousel{
+  width: 500px;
+  height: 500px;
+}
+
+.carousel-control-prev{
+  margin-bottom: 0%;
+  background-color: transparent;
+}
+.carousel-control-next{
+  margin-bottom: 0%;
+  background-color: transparent;
+}
+
 
 p{
   max-width: 850px;
