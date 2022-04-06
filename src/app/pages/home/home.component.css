@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost&family=Suez+One&display=swap');
-.container{
+.container-1{
   display: flex;
   justify-content: center;
+  width: 100%!important;
 
 }
 .sobre-nos{
