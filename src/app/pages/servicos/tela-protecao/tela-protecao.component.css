@@ -9,6 +9,7 @@ hr{
 .carousel{
   width: 500px;
   height: 500px;
+  margin-bottom: 150px;
 }
 
 .carousel-control-prev{
@@ -83,4 +84,10 @@ button{
 button:hover{
   background-color: rgba(62, 72, 131, 0.973)!important;
   color: aliceblue!important;
+}
+
+
+.carousel-indicators{
+  position: absolute!important;
+  top:500px;
 }
