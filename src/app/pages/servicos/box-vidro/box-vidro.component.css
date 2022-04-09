@@ -6,6 +6,23 @@ h1{
 hr{
   margin-bottom: 40px;
 }
+.carousel{
+  width: 500px;
+  height: 500px;
+  margin-bottom: 150px;
+}
+
+.carousel-control-prev{
+  margin-bottom: 0%;
+  background-color: transparent;
+}
+.carousel-control-next{
+  margin-bottom: 0%;
+  background-color: transparent;
+}
+.carousel-inner{
+  border-radius: 15px;
+}
 
 p{
   max-width: 850px;
@@ -36,13 +53,6 @@ p{
   border-radius: 15px;
 }
 
-.teste{
-  width: 350px;
-  height: 350px;
-  border-radius: 15px;
-
-}
-
 @media only screen and (max-width: 600px) and (min-width: 280px) {
   .container{
     flex-direction: column;
@@ -69,4 +79,10 @@ button{
 button:hover{
   background-color: rgba(62, 72, 131, 0.973)!important;
   color: aliceblue!important;
+}
+
+
+.carousel-indicators{
+  position: absolute!important;
+  top:500px;
 }

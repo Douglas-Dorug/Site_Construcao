@@ -20,6 +20,9 @@ hr{
   margin-bottom: 0%;
   background-color: transparent;
 }
+.carousel-inner{
+  border-radius: 15px;
+}
 
 
 p{
@@ -49,13 +52,6 @@ p{
   width: auto;
   height: auto;
   border-radius: 15px;
-}
-
-.teste{
-  width: 350px;
-  height: 350px;
-  border-radius: 15px;
-
 }
 
 @media only screen and (max-width: 600px) and (min-width: 280px) {
