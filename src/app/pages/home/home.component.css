@@ -246,6 +246,7 @@ p{
 
 
 @media only screen and (max-width: 1024px) and (min-width: 600px) {
+
   .sobre-nos{
     height: 800px;
   }
@@ -257,4 +258,5 @@ p{
   .frase-efeito{
     height: 90%!important;
   }
+  
 }
