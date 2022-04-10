@@ -1,13 +1,17 @@
 section {
-  background: rgb(195, 235, 236);
-  background: linear-gradient(0deg, rgba(195, 235, 236, 1) 0%, rgba(142, 142, 142, 1) 100%);
-
+  background: #f5f5f5;
+  box-shadow: 0 0 2em  rgb(5, 66, 119);
 }
 .container-menu{
   display: flex;
   justify-content: space-between;
-  height: 200px;
+  height: 150px;
   width: 100%;
+}
+
+.imglogo{
+  width: 350px;
+  margin-top: -70px;
 }
 
 #menu__toggle {
@@ -73,7 +77,7 @@ section {
   padding: 80px 0;
   list-style: none;
   background-color: #ECEFF1;
-  box-shadow: 2px 2px 6px rgba(24, 50, 105, 0.4);
+  box-shadow: 2px 2px 6px  rgb(5, 66, 119);
   transition-duration: .25s;
 }
 
@@ -92,8 +96,48 @@ section {
   background-color: #8cb5c7;
 }
 
-.imglogo {
-  margin-top: -100px;
+.container-footer{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(42, 48, 85, 0.589);
+  box-shadow: 0 0 2em  rgb(5, 66, 119);
+  border-radius: 16px;
+  height: 230px;
+}
+
+.redes-sociais{
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid  rgb(35, 13, 230);
+  width: 100%;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+}
+
+.linkedin-img{
+  width: 30px;
+  margin-left:10px;
+  margin-right:10px;
+}
+.wpp-img,
+.insta-img{
+  width: 50px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.linkedin{
+  display:flex;
+  justify-content:center;
+}
+
+.douglas,
+.fernanda{
+  margin-left: 20px;
+  display: flex;
+  border-bottom: 2px solid blue;
 }
 
 @media only screen and (max-width: 600px) and (min-width: 280px) {
@@ -111,4 +155,23 @@ section {
   img {
     margin-top: 100px !important;
   }
+
+  .container-footer{
+    height:
+    370px;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  .douglas,
+  .fernanda{
+    margin-left: 0px;
+    display: flex;
+    border-bottom: none;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
