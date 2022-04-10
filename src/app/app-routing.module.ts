@@ -3,6 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { BoxVidroComponent } from './pages/servicos/box-vidro/box-vidro.component';
 import { EspelhosComponent } from './pages/servicos/espelhos/espelhos.component';
+import { GramaComponent } from './pages/servicos/grama/grama.component';
+import { MoveisComponent } from './pages/servicos/moveis/moveis.component';
+import { PeliculaVidroComponent } from './pages/servicos/pelicula-vidro/pelicula-vidro.component';
 import { PortasJanelasComponent } from './pages/servicos/portas-janelas/portas-janelas.component';
 import { ServicosComponent } from './pages/servicos/servicos.component';
 import { TelaProtecaoComponent } from './pages/servicos/tela-protecao/tela-protecao.component';
@@ -33,7 +36,16 @@ const routes: Routes = [
   },
   {
     path: 'servicos/varaisTeto', component: VaraisTetoComponent
-  }
+  },
+  {
+    path: 'servicos/gramaSintetica', component: GramaComponent
+  },
+  {
+    path: 'servicos/moveis', component: MoveisComponent
+  },
+  {
+    path: 'servicos/peliculaVidro', component: PeliculaVidroComponent
+  },
 
 ];
 

@@ -11,6 +11,9 @@ import { VaraisTetoComponent } from './servicos/varais-teto/varais-teto.componen
 import { EspelhosComponent } from './servicos/espelhos/espelhos.component';
 import { PortasJanelasComponent } from './servicos/portas-janelas/portas-janelas.component';
 import { ToldosComponent } from './servicos/toldos/toldos.component';
+import { GramaComponent } from './servicos/grama/grama.component';
+import { MoveisComponent } from './servicos/moveis/moveis.component';
+import { PeliculaVidroComponent } from './servicos/pelicula-vidro/pelicula-vidro.component';
 
 
 
@@ -23,7 +26,10 @@ import { ToldosComponent } from './servicos/toldos/toldos.component';
     VaraisTetoComponent,
     EspelhosComponent,
     PortasJanelasComponent,
-    ToldosComponent
+    ToldosComponent,
+    GramaComponent,
+    MoveisComponent,
+    PeliculaVidroComponent
   ],
   imports: [
     CommonModule,
