@@ -87,6 +87,11 @@ button:hover{
 
 }
 
+img{
+  width: 500px!important;
+  height: 500px!important;
+}
+
 
 .carousel-indicators{
   position: absolute!important;
