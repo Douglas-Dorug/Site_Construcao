@@ -31,8 +31,37 @@ p{
   border-radius: 18px;
   border: 2px solid rgb(133, 133, 145);
 }
+.button-div{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
 
-button{
+.button-benefits{
+  text-align: center;
+  margin-top: 150px;
+  border: none;
+  font-size: 20px;
+  cursor:pointer;
+  border-radius: 8px;
+  padding:25px;
+  margin-bottom: 20px;
+  margin-bottom: 12px;
+  box-shadow: 0 0 1em rgb(22, 66, 117);
+  color: rgb(8, 8, 90);
+}
+
+.button-benefits:hover{
+  background: rgb(42,48,95);
+  background: linear-gradient(0deg, rgba(42,48,95,1) 0%, rgba(55,61,105,1) 32%, rgba(100,105,139,1) 69%);
+  color: aliceblue;
+  font-size: 28px;
+  margin-bottom: 0px;
+}
+
+.button-services,
+.button1,
+.button2{
   background-color: rgb(225, 238, 238);
   border: none;
   font-size: 16pt;
@@ -42,7 +71,9 @@ button{
   margin-bottom: 20px;
 }
 
-button:hover{
+.button-services:hover,
+.button2:hover,
+.button1:hover{
   background-color: rgba(62, 72, 131, 0.973);
   color: aliceblue;
 }
@@ -72,16 +103,15 @@ button:hover{
 .container-baixo{
   margin-top: 150px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   color: rgb(8, 8, 90);
-  flex-direction: columnn;
+  justify-content: center;
+  align-items: center;
 }
 
-.gif-services{
-  margin-right: 100px;
-  border-radius: 16px;
-  width: 500px;
-  border:10px groove rgba(42, 48, 85, 0.589);
+.Carousel{
+  margin-bottom: 80px;
 }
 .txt-escolha{
   max-width: 650px;
@@ -185,11 +215,7 @@ p{
   .frase-efeito{
     height: 90%!important;
   }
-  .gif-services{
-    overflow: hidden;
-    margin:0px;
-    width: 90%;
-  }
+
   .container-baixo{
     display: flex;
     text-align: center;
@@ -215,5 +241,20 @@ p{
   }
   .txt-escolha{
     margin: 0px;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+  .sobre-nos{
+    height: 800px;
+  }
+  .text-sobre-nos{
+    width:50%;
+    padding:0px;
+    height: 100%;
+  }
+  .frase-efeito{
+    height: 90%!important;
   }
 }

@@ -54,6 +54,11 @@ p{
   .container{
     flex-direction: column;
   }
+
+  .imagem1{
+    width: 100%;
+  }
+
 }
 
 .button-services{
