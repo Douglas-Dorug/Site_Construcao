@@ -110,7 +110,8 @@ a{
   background-color: rgba(42, 48, 85, 0.589);
   box-shadow: 0 0 2em  rgb(5, 66, 119);
   border-radius: 16px;
-  height: 230px;
+  height: 250px;
+  padding-bottom: 20px;
 }
 
 .redes-sociais{
@@ -141,9 +142,9 @@ a{
 
 .douglas,
 .fernanda{
-  margin-left: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   display: flex;
-  border-bottom: 2px solid blue;
 }
 
 @media only screen and (max-width: 600px) and (min-width: 280px) {
